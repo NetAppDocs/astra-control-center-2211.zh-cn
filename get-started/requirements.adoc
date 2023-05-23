@@ -169,13 +169,13 @@ NOTE: 您可以在双堆栈 Kubernetes 集群中部署 Astra 控制中心，而 
 | 指标使用者 | Astra 控制中心工作节点 | 9090 | HTTPS | 指标数据通信—确保每个受管集群都可以访问托管 Astra 控制中心的集群上的此端口 （需要双向通信） 
 
 
-| Astra 控制中心 | 托管 Cloud Insights 服务 (https://www.netapp.com/cloud-services/cloud-insights/)[] | 443. | HTTPS | Cloud Insights 通信 
+| Astra 控制中心 | 托管 Cloud Insights 服务  | 443. | HTTPS | Cloud Insights 通信 
 
 
 | Astra 控制中心 | Amazon S3 存储分段提供商 | 443. | HTTPS | Amazon S3 存储通信 
 
 
-| Astra 控制中心 | NetApp AutoSupport (https://support.netapp.com)[] | 443. | HTTPS | NetApp AutoSupport 通信 
+| Astra 控制中心 | NetApp AutoSupport  | 443. | HTTPS | NetApp AutoSupport 通信 
 |===
 
 
